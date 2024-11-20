@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    color: #cacaca;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+  }
+  button {
+    background-color:  #5F3DC4;
+    color: white;
+    width: 100px;
+    height:40px;
+  }
+
+  nav {
+    display: grid;
+    grid-column-start: 30px;
+    background-color: black;
+  }
+
+  .email {
+      display: flex;
+      flex-direction: row;
+      width: 30px;
+      height: 30px;
+
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    grid-gap: 20px; /* Add 20px gap between items */
+  }
+  
+  .item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
